@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.section {
+  flex: 1;
+}
+
+.chat-feed {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  align-self: flex-end;
+  border-radius: 5px;
+  background-color: #333;
+  width: fit-content;
+  padding: 12px;
+  margin-bottom: 6px;
+}
+
+li.other {
+  align-self: flex-start;
+}
+
+.input {
+  width: 100%;
+}
+
+section,
+footer {
+  padding: 1rem !important;
+}
